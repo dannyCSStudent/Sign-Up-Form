@@ -15,7 +15,6 @@
 #first {
     flex-basis: 40%;
     flex-direction: column;
-    border: 1px solid gold;
     background-image: url(./images/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg);
     background-repeat: round;
     position: relative;
@@ -32,7 +31,8 @@
     font-size: -webkit-xxx-large;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);font-family: 'Cinzel Decorative', cursive;
+
 }
 
 #first #logo img {
@@ -43,24 +43,77 @@
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
-    border: 1px solid brown;
 }
 
 #second #top {
-    border: 1px solid lawngreen;
+    display: flex;
     flex-basis: 22rem;
+    color: #ffffff;
+    font-size: 25px;
+    justify-content: center;
+    padding: 50px;
+    flex-direction: column;
 }
 
+#second span {
+    font-style: italic;
+}
+#second #sub-text {
+    margin-top: 1rem;
+}
 #second #middle {
-    border: 1px solid aqua;
+    display: flex;
     flex-basis: 20rem;
+    flex-direction: column;
+    color: #ffffff;
 }
 
+#second #middle form {
+    gap: 50px;
+    display: flex;
+    padding-left: 50px;
+    height: -webkit-fill-available;
+}
+
+#second #middle form div {
+    display: flex;
+    flex-direction: column;
+}
+
+#second #middle form label {
+    font-size: 10px;
+    margin-top: 50px;
+}
+
+#second #middle p {
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+#second #middle form input {
+    height: 30px;
+    width: 250px;
+}
 #second #bottom {
-    border: 1px solid royalblue;
+    display: flex;
     flex: 1;
+    color: #ffffff;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 25px;
 }
 
+#second #bottom button {
+    width: 250px;
+    height: 30px;
+    background-color: #00ffff;
+}
 
+#second #bottom p {
+    margin-top: 20px;
+}
 
-
+#second #bottom p {
+    color: #00ffff;
+    
+}

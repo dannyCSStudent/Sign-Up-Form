@@ -84,6 +84,7 @@
 #second #middle form label {
     font-size: 10px;
     margin-top: 50px;
+    margin-bottom: auto;
 }
 
 #second #middle p {
@@ -107,12 +108,10 @@
 #second #bottom button {
     width: 250px;
     height: 30px;
-    background-color: #00ffff;
+    background-color: rgb(0, 255, 255);
 }
 
 #second #bottom p {
     margin-top: 20px;
     color: rgb(0, 255, 255);
 }
-
-    
